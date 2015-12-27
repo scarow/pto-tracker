@@ -1,0 +1,15 @@
+CREATE TABLE team (
+    id          serial PRIMARY KEY,
+    manager_id  integer NOT NULL,
+    name        varchar(100) NOT NULL
+);
+
+CREATE SEQUENCE hibernate_sequence START WITH 1 INCREMENT BY 1 NOCYCLE;
+
+CREATE USER pto_tracker WITH PASSWORD '26fbb64a0c95fa83b69585c11610543e';
+GRANT ALL PRIVILEGES ON DATABASE pto_tracker to pto_tracker;
+GRANT USAGE, SELECT ON SEQUENCE team_id_seq TO pto_tracker;
+
+
+
+insert into team(manager_id, name) values(12, 'Aweosme Team!');
