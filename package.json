@@ -33,6 +33,7 @@
   "homepage": "https://github.com/scarow/pto-tracker#readme",
   "dependencies": {
     "bluebird": "^3.1.1",
+    "db-migrate": "^0.9.23",
     "express": "^4.13.3",
     "pg-promise": "^2.8.5"
   }

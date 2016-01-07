@@ -25,7 +25,7 @@ app.get('/', function (req, res) {
 
 app.get('/write', function (req, res) {
   var random = getRandomInt(1, 1000);
-  db.none("insert into team(manager_id, name) values($1, $2)", [random, "Team: " + random])
+  db.none("insert into teams(manager_id, name) values($1, $2)", [random, "Team: " + random])
     .then(function () {
       // success;
       res.send('written!');
