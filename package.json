@@ -15,15 +15,15 @@
     "url": "git+https://github.com/scarow/pto-tracker.git"
   },
   "author": {
-    "name" : "Samantha Carow",
-    "email" : "samantha.carow@gmail.com",
-    "url" : "http://github.com/scarow"
+    "name": "Samantha Carow",
+    "email": "samantha.carow@gmail.com",
+    "url": "http://github.com/scarow"
   },
   "contributors": [
     {
-      "name" : "M. Hokanson",
-      "email" : "m@h0ke.com",
-      "url" : "http://h0ke.com"
+      "name": "M. Hokanson",
+      "email": "m@h0ke.com",
+      "url": "http://h0ke.com"
     }
   ],
   "license": "ISC",
@@ -32,6 +32,9 @@
   },
   "homepage": "https://github.com/scarow/pto-tracker#readme",
   "dependencies": {
-    "express": "^4.13.3"
+    "bluebird": "^3.1.1",
+    "db-migrate": "^0.9.23",
+    "express": "^4.13.3",
+    "pg-promise": "^2.8.5"
   }
 }
