@@ -1,19 +1,3 @@
-Skip to content
-This repository  
-Search
-Pull requests
-Issues
-Gist
- @h0ke
- Watch 1,490
-  Star 33,450
- Fork 12,666 github/gitignore
- Code  Pull requests 100  Pulse  Graphs
-Branch: master Find file Copy pathgitignore/Python.gitignore
-62defad  2 days ago
-@e-yes e-yes Python: don't track virtualenv files.
-46 contributors @arcresu @Metallicow @toanant @shiftkey @misaelnieto @EvandroLG @matheussl @vltr @hugovk @Lucretiel @Harrison-G @relekang @manavm @rayshan @llonchj @kdeldycke @jspahrsummers @honzajavorek @reinout @roll @hippo91 @gsnedders @xiaogaozi @adamv @borntyping @sigo and others
-RawBlameHistory     86 lines (68 sloc)  999 Bytes
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
