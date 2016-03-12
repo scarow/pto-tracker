@@ -1,1 +1,103 @@
-node_modules
+Skip to content
+This repository  
+Search
+Pull requests
+Issues
+Gist
+ @h0ke
+ Watch 1,490
+  Star 33,450
+ Fork 12,666 github/gitignore
+ Code  Pull requests 100  Pulse  Graphs
+Branch: master Find file Copy pathgitignore/Python.gitignore
+62defad  2 days ago
+@e-yes e-yes Python: don't track virtualenv files.
+46 contributors @arcresu @Metallicow @toanant @shiftkey @misaelnieto @EvandroLG @matheussl @vltr @hugovk @Lucretiel @Harrison-G @relekang @manavm @rayshan @llonchj @kdeldycke @jspahrsummers @honzajavorek @reinout @roll @hippo91 @gsnedders @xiaogaozi @adamv @borntyping @sigo and others
+RawBlameHistory     86 lines (68 sloc)  999 Bytes
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+
+# Flask instance folder
+instance/
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# dotenv
+.env
+
+# virtualenv
+venv/
+ENV/
+
+# Spyder project settings
+.spyderproject
+Status API Training Shop Blog About Pricing
+© 2016 GitHub, Inc. Terms Privacy Security Contact Help
