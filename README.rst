@@ -24,7 +24,10 @@ In the same parent directory:
 * `vagrant up`
 * `vagrant ssh`
 * `cd /srv/pto-tracker`
+* `source ~/app/bin/activate`
+* `cd db`
 * `python manage.py version_control`
 * `python manage.py upgrade`
+* `cd ..`
 * `pserve app.ini --reload`
-* point your browser to `192.168.50.3:6543`
+* point your browser to `192.168.50.3:6543/users`
